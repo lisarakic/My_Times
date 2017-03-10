@@ -3,23 +3,32 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  margin-top: 60px;
+  border-bottom: 1px solid black;
 }
 
 img {
   padding-left: 30px;
+  padding-bottom: 10px;
 }
 
 #logo {
   color: MediumAquamarine;
   padding-right: 200px;
   padding-left: 20px;
+  flex-grow: 4;
 }
 
 .nav {
   display: inline-block;
   padding: 0px 10px;
+
 }
 
 .nav a {
   color: black;
+}
+
+#last {
+  margin-right: 40px;
 }
