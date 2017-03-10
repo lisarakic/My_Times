@@ -6,6 +6,7 @@ header {
   font-size: 14px;
   font-weight: bold;
   margin-top: 60px;
+  margin-bottom: 5px;
   border-bottom: 1px solid black;
   align-items: center;
 }
@@ -20,6 +21,7 @@ header {
   padding-bottom: 10px;
   color: MediumAquamarine;
   flex-grow: 4
+
 }
 
 .nav {
@@ -49,7 +51,7 @@ header {
 
 .column1 {
   border: 1px solid black;
-  margin: 0 20px 0 0;
+  margin: 0 10px 0 0;
 }
 
 .medium {
@@ -60,7 +62,7 @@ header {
 
 .column2 {
   border: 1px solid black;
-  margin: 0px 20px;
+  margin: 0px 10px;
 }
 
 .small {
@@ -71,7 +73,8 @@ header {
 
 .column3 {
   border: 1px solid black;
-  margin-left: 20px;
+  margin-left: 10px;
+  overflow: hidden;
 }
 
 .column3 img {
