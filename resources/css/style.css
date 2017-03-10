@@ -1,3 +1,5 @@
+
+
 header {
   display: flex;
   font-family: Verdana;
@@ -5,24 +7,24 @@ header {
   font-weight: bold;
   margin-top: 60px;
   border-bottom: 1px solid black;
+  align-items: center;
 }
 
-img {
-  padding-left: 30px;
-  padding-bottom: 10px;
-}
 
 #logo {
-  color: MediumAquamarine;
   padding-right: 200px;
-  padding-left: 20px;
-  flex-grow: 4;
+  border: 1px solid black;
+  display: inline-flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  color: MediumAquamarine;
+  flex-grow: 4
 }
 
 .nav {
   display: inline-block;
   padding: 0px 10px;
-
 }
 
 .nav a {
@@ -31,4 +33,47 @@ img {
 
 #last {
   margin-right: 40px;
+}
+
+.container {
+  display: flex;
+  border: 1px solid black;
+}
+
+.large {
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+  margin-left: 0;
+}
+
+.column1 {
+  border: 1px solid black;
+  margin: 0 20px 0 0;
+}
+
+.medium {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.column2 {
+  border: 1px solid black;
+  margin: 0px 20px;
+}
+
+.small {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+}
+
+.column3 {
+  border: 1px solid black;
+  margin-left: 20px;
+}
+
+.column3 img {
+
 }
